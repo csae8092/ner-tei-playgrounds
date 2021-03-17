@@ -1,0 +1,8 @@
+.vscode
+.ipynb_checkpoints
+env
+*.spacy
+output
+acdh_tei_pyutils
+sample.jsonl
+tei.xml
