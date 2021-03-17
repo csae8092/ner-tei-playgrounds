@@ -1,5 +1,5 @@
-acdh-tei-pyutils
-github
-spacy
-jupyter
-notebook
+acdh-tei-pyutils==0.3.0
+PyGithub==1.54.1
+spacy==3.0.5
+jupyter==1.0.0
+notebook==6.2.0
