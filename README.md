@@ -10,5 +10,6 @@ quick and dirty repo to try out
 
 * create virtual env e.g. `virutalenv env`
 * activate env, e.g. `source env/bin/activate` 
-* start jupyter notebook `jupyter notebook`
+* install requirements.txt, e.g. `pip install -r requirements.txt`
+* start jupyter notebook `jupyter notebook` 
 * run `train_from_tei_from_github`
