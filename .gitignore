@@ -6,3 +6,4 @@ output
 acdh_tei_pyutils
 sample.jsonl
 tei.xml
+secret.json
