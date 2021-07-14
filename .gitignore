@@ -7,3 +7,5 @@ acdh_tei_pyutils
 sample.jsonl
 tei.xml
 secret.json
+/de_ner_mpr
+out.jsonl
