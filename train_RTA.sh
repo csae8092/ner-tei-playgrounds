@@ -1,4 +1,4 @@
-# /bin/bash
+/bin/bash
 
 echo "download data"
 python dl_rta.py
