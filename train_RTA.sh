@@ -1,6 +1,6 @@
 # /bin/bash
 
-echo "donwnload data"
+echo "download data"
 python dl_rta.py
 
 echo "convert data"

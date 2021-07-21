@@ -39,6 +39,6 @@ python -m spacy evaluate de_core_news_sm ./dev.spacy --output eval.json
 python -m spacy evaluate ./de_ner_mpr/de_MRP_NER-0.0.0/de_MRP_NER/de_MRP_NER-0.0.0 ./dev.spacy --output eval_mrp.json
 ```
 
-or run pip install https://huggingface.co/csae8092/de_MRP_NER/resolve/main/de_MRP_NER-any-py3-none-any.whl and then
-
-`python -m spacy evaluate de_MRP_NER ./dev.spacy --output eval_mrp.json`
+or run 
+* `pip install https://huggingface.co/csae8092/de_MRP_NER/resolve/main/de_MRP_NER-any-py3-none-any.whl` and then
+* `python -m spacy evaluate de_MRP_NER ./dev.spacy --output eval_mrp.json`
