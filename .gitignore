@@ -8,6 +8,7 @@ sample.jsonl
 tei.xml
 secret.json
 /de_ner_mpr
+/de_ner_rta
 out.jsonl
 eval_mrp.json
 eval.json

@@ -18,13 +18,14 @@ quick and dirty repo to try out
 ## package model
 
 ```shell
-mkdir mkdir de_ner_mpr
-python -m spacy package ./output/model-best ./de_ner_mpr/ --build wheel
-cd de_ner_mpr/de_MRP_NER-0.0.0/dist/
-python -m spacy huggingface-hub push de_MRP_NER-0.0.0-py3-none-any.whl
+mkdir de_ner_rta
+python -m spacy package ./output/model-best ./de_ner_rta/ --build wheel
+cd de_ner_rta/de_RTA_NER-0.0.0/dist/
+python -m spacy huggingface-hub push de_RTA_NER-0.0.0-py3-none-any.whl
 ```
 
 `pip install https://huggingface.co/csae8092/de_MRP_NER/resolve/main/de_MRP_NER-any-py3-none-any.whl`
+`pip install https://huggingface.co/csae8092/de_RTA_NER/resolve/main/de_RTA_NER-any-py3-none-any.whl`
 
 ### try out online
 
