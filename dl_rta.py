@@ -1,7 +1,7 @@
 import os
 from nerdpool_client import NerdPoolClient
 
-DATA_SET = "RTA"
+DATA_SET = "WRDIARIUM"
 
 url = f"https://nerdpool-api.acdh-dev.oeaw.ac.at/api/ner-sample/?format=json&ner_ent_type__contains=&ner_source__title={DATA_SET}"
 client = NerdPoolClient()
