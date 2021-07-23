@@ -3,7 +3,7 @@ import json
 import spacy
 from spacy.tokens import DocBin
 
-DATA_SET = "WRDIARIUM"
+DATA_SET = "MONNER1"
 db_train = DocBin()
 db_eval = DocBin()
 nlp = spacy.blank('de')
